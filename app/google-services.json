@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "826746404301",
+    "project_id": "truwork-4d642",
+    "storage_bucket": "truwork-4d642.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826746404301:android:bab4eb5fea7668ef5ed884",
+        "android_client_info": {
+          "package_name": "com.example.truwork"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJqL3JxDOKslurrW2LtnEAun1-Z6raPwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

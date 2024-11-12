@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Truwork</string>
+    <string name="Bienvenido">Bienvenido</string>
+    <string name="inicia_sesi_n">Inicia sesión</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="ingresa_tu_correo">Ingresa tu correo</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="ingresa_tu_contrase_a">Ingresa tu contraseña aqui</string>
+    <string name="ingresa_tu_correo_electr_nico">Ingresa tu correo electrónico aqui</string>
+    <string name="recordar_cuenta">Recordar cuenta</string>
+    <string name="olvid_mi_contrase_a">Olvidé mi contraseña</string>
+    <string name="iniciar_sesi_n">Iniciar sesión</string>
+    <string name="no_tienes_una_cuenta">¿No tienes una cuenta?</string>
+    <string name="registrate"><u>Registrate</u></string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="crea_una_cuenta">Crea una cuenta</string>
+    <string name="nombre">Nombre</string>
+    <string name="ingresa_tu_nombre">Ingresa tu nombre aqui</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="ingresa_tus_apellidos">Ingresa tus apellidos aqui</string>
+    <string name="registrarme">Registrarme</string>
+    <string name="ya_tienes_una_cuenta">¿Ya tienes una cuenta?</string>
+    <string name="iniciar_sesi_n1"><u>Iniciar sesión</u></string>
+
+
+    <string name="inicio">Inicio</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="postulaciones">Postulaciones</string>
+    <string name="perfil">Perfil</string>
+
+
+    <!-- Descripción para accesibilidad -->
+    <string name="descripcion_edittext_correo">Campo para ingresar tu correo electrónico</string>
+    <string name="ingresa_tus_nombres">Ingresa tus nombres</string>
+    <string name="tel_fono">Teléfono</string>
+    <string name="ingresa_tu_contrase_a_aqui">Ingresa tu contraseña aqui</string>
+    <string name="ingresa_tu_n_mero_de_celular_aqui">Ingresa tu número de celular aqui</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buscar">Buscar</string>
+    <string name="ofertas_de_empleo">Ofertas de empleo</string>
+
+
+    <string name="nombre_de_la_empresa">Nombre de la empresa</string>
+    <string name="trujillo_la_libertad">Trujillo, La Libertad</string>
+    <string name="nombre_concatenado">Nombre concatenado</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="t_rminos_y_condiciones">Términos y condiciones</string>
+    <string name="soporte">Soporte</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="mi_empresa">Mi empresa</string>
+    <string name="mis_empleos">Mis empleos</string>
+
+    <string name="informaci_n_personal">Información personal</string>
+
+    <string name="nombres_completos">Nombres completos</string>
+    <string name="apellidos_completos">Apellidos completos</string>
+    <string name="celular">Celular</string>
+    <string name="celular_usuario">Celular usuario</string>
+    <string name="correo_de_usuario">Correo de usuario</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="apellidos_de_usuario">Apellidos de usuario</string>
+    <string name="datos_de_mi_empresa">Datos de mi empresa</string>
+    <string name="ruc">RUC</string>
+    <string name="presentaci_n">Presentación</string>
+    <string name="guardar">Guardar</string>
+    <string name="a_adir_empleo">añadir empleo</string>
+    <string name="nuevo_empleo">Nuevo empleo</string>
+    <string name="tipo_de_empleo">Tipo de empleo</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="beneficios">Beneficios</string>
+    <string name="funciones">Funciones</string>
+    <string name="requisitos">Requisitos</string>
+    <string name="puesto_de_trabajo">Puesto de trabajo</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="nombres">Nombres</string>
+    <string name="profesi_n">Profesión</string>
+
+    <string name="cerrar_dialogo">cerrar dialogo</string>
+    <string name="editar">Editar</string>
+    <string name="ver_postulacioness">Ver postulaciones</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="editar_empleo">Editar empleo</string>
+    <string name="modificar">Modificar</string>
+    <string name="fechapublicacion">FechaPublicacion</string>
+    <string name="fecha_de_publicacion">Fecha de publicacion</string>
+    <string name="fecha_de_publicaci_n">Fecha de publicación:</string>
+    <string name="postular">Postular</string>
+    <string name="correo_postulantes">Correo postulantes</string>
+    <string name="tel_fono_postulante">Teléfono postulante</string>
+    <string name="descargar_cv">Descargar Cv</string>
+    <string name="nombre_empleo">Nombre empleo</string>
+    <string name="subir_archivo">Subir archivo</string>
+    <string name="icono">icono</string>
+    <string name="no_se_ha_subido_un_cv">No se ha subido un CV</string>
+    <string name="recuperar_contrase_a">RECUPERAR CONTRASEÑA</string>
+    <string name="enviar_correo">Enviar correo</string>
+    <string name="ingresa_tu_correo_aqui">Ingresa tu correo aqui</string>
+    <string name="Terminos1">Términos y Condiciones de Uso\nBienvenido a la aplicación. Al utilizar este servicio, aceptas los siguientes términos:\n</string>
+    <string name="Terminos2">Uso de la Aplicación\nEsta aplicación tiene como objetivo facilitar el acceso a oportunidades laborales para personas con discapacidad física y sensorial. Al usarla, el usuario se compromete a utilizarla de manera responsable y a respetar los derechos de otros usuarios.\n</string>
+    <string name="Terminos3">Registro y Privacidad\nAl registrarte, nos autorizas a recopilar y utilizar información básica necesaria para brindarte el servicio. La información proporcionada se usará exclusivamente para fines de conectarte con posibles empleadores y mejorar la funcionalidad de la aplicación. No compartimos tus datos personales sin tu consentimiento, salvo en casos donde lo exija la ley.\n</string>
+    <string name="Terminos4">Limitación de Responsabilidad\nNo garantizamos que la aplicación estará libre de errores o interrupciones. No asumimos responsabilidad por la disponibilidad de ofertas laborales ni por la efectividad de los procesos de reclutamiento a través de la app.\n</string>
+    <string name="Terminos5">Actualizaciones y Cambios\nNos reservamos el derecho de modificar estos términos y condiciones cuando sea necesario. Las modificaciones se informarán dentro de la aplicación y entrarán en vigor inmediatamente después de su publicación.\n</string>
+
+
+    <string-array name="ciudades_la_libertad">
+        <item>Trujillo</item>
+        <item>Ascope</item>
+        <item>Chepén</item>
+        <item>Julcán</item>
+        <item>Otuzco</item>
+        <item>Pacasmayo</item>
+        <item>Pataz</item>
+        <item>Sánchez Carrión</item>
+        <item>Santiago de Chuco</item>
+        <item>Gran Chimú</item>
+        <item>Virú</item>
+    </string-array>
+
+    <string-array name="tipo_de_empleos">
+        <item>Tiempo completo</item>
+        <item>Medio tiempo</item>
+        <item>Por horas</item>
+        <item>Tiempo completo /  Medio tiempo</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PerfilFragment">
+
+    <LinearLayout
+        android:id="@+id/lay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="@color/color_app"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="80dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:id="@+id/la"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="15dp"
+                tools:ignore="ContentDescription"
+                android:src="@drawable/icon_perfil"/>
+
+            <TextView
+                android:id="@+id/nombreajustes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre_concatenado"
+                android:layout_marginStart="20dp"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="200dp"
+        app:cardCornerRadius="8dp">
+
+
+        <LinearLayout
+            android:id="@+id/botones"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/abrirMiPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/textview_selector"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="10dp"
+                android:paddingTop="0dp"
+                android:paddingEnd="15dp"
+                android:text="@string/perfil"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:drawableRightCompat="@drawable/icon_derecha"
+                app:drawableLeftCompat="@drawable/icon_perfil"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="300dp"
+        app:cardCornerRadius="8dp">
+
+
+        <LinearLayout
+            android:id="@+id/botones1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/PerfilEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/textview_selector"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="10dp"
+                android:paddingTop="0dp"
+                android:paddingEnd="15dp"
+                android:text="@string/mi_empresa"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:drawableRightCompat="@drawable/icon_derecha"
+                app:drawableLeftCompat="@drawable/icon_empresa"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/MisEmpleos"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/textview_selector"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="10dp"
+                android:paddingTop="0dp"
+                android:paddingEnd="15dp"
+                android:text="@string/mis_empleos"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:drawableRightCompat="@drawable/icon_derecha"
+                app:drawableLeftCompat="@drawable/icon_empleo"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="450dp"
+        app:cardCornerRadius="8dp">
+
+
+        <LinearLayout
+            android:id="@+id/botones2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/Soporte"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/textview_selector"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="10dp"
+                android:paddingTop="0dp"
+                android:paddingEnd="15dp"
+                android:text="@string/soporte"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:drawableRightCompat="@drawable/icon_derecha"
+                app:drawableLeftCompat="@drawable/icon_soporte"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/Terminos"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/textview_selector"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="10dp"
+                android:paddingTop="0dp"
+                android:paddingEnd="15dp"
+                android:text="@string/t_rminos_y_condiciones"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:drawableRightCompat="@drawable/icon_derecha"
+                app:drawableLeftCompat="@drawable/icon_terminos"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/CerrarSesion"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/textview_selector"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingStart="10dp"
+                android:paddingTop="0dp"
+                android:paddingEnd="15dp"
+                android:text="@string/cerrar_sesi_n"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:drawableRightCompat="@drawable/icon_derecha"
+                app:drawableLeftCompat="@drawable/icon_cerrar"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>

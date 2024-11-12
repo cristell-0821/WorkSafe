@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:windowFullscreen="false"
+    tools:context=".InicioFragment">
+
+    <LinearLayout
+        android:id="@+id/lay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="@color/color_app"/>
+
+    <!-- ScrollView debajo del LinearLayout ocupando el espacio restante -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="50dp"
+        tools:ignore="SpeakableTextPresentCheck"> <!-- Asegura que comience justo debajo del LinearLayout -->
+
+        <!-- Aquí puedes agregar el contenido del ScrollView -->
+        <LinearLayout
+            android:id="@+id/lay_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="18dp"
+                app:cardCornerRadius="10dp">
+
+                <EditText
+                    android:id="@+id/buscar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:drawableStart="@drawable/icon_buscar"
+                    android:drawablePadding="5dp"
+                    android:hint="@string/buscar"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:textColorHint="#757575"
+                    tools:ignore="Autofill,VisualLintTextFieldSize,TouchTargetSizeCheck" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ofertas_de_empleo"
+                android:layout_marginStart="18dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/color_fondo"
+                android:paddingBottom="100dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

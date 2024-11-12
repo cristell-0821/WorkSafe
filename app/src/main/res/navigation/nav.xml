@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/pagina_inicio"
+    android:id="@+id/nav">
+
+    <fragment
+        android:id="@+id/pagina_inicio"
+        android:name="com.example.truwork.InicioFragment"
+        tools:layout="@layout/fragment_inicio">
+
+        <argument
+            android:name="email"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pagina_postulaciones"
+        android:name="com.example.truwork.PostulacionesFragment"
+        tools:layout="@layout/fragment_postulaciones"/>
+
+    <fragment
+        android:id="@+id/pagina_ajustes"
+        android:name="com.example.truwork.PerfilFragment"
+        tools:layout="@layout/fragment_perfil"/>
+
+
+</navigation>

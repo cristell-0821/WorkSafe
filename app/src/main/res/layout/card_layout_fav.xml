@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_margin="12dp"
+    card_view:cardBackgroundColor="#FFFFFF"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="6dp"
+    card_view:contentPadding="4dp"
+    android:elevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="20dp"
+        tools:ignore="TextSizeCheck">
+
+
+        <TextView
+            android:id="@+id/nombreCargo11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/card_view"
+            android:text="Cargo -------------------"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,NotSibling" />
+
+        <TextView
+            android:id="@+id/nombreEmpresa12"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombreCargo11"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/card_view"
+            android:text="@string/nombre_de_la_empresa"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:alpha="0.8"
+            tools:ignore="NotSibling" />
+
+        <TextView
+            android:id="@+id/nombreCiudad13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombreEmpresa12"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/card_view"
+            android:text="@string/trujillo_la_libertad"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:alpha="0.8"
+            tools:ignore="NotSibling" />
+
+        <TextView
+            android:id="@+id/nombreTiempo14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombreCiudad13"
+            android:layout_marginTop="7dp"
+            android:layout_toEndOf="@+id/card_view"
+            android:text="Tiempo parcial"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:alpha="0.8"
+            tools:ignore="HardcodedText,NotSibling" />
+
+        <TextView
+            android:id="@+id/fechapublicacion15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombreTiempo14"
+            android:layout_marginTop="7dp"
+            android:layout_toEndOf="@+id/card_view"
+            android:text="Fecha publicacion"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:alpha="0.8"
+            tools:ignore="HardcodedText,NotSibling" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
